@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'KeyboardEventHandler'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'Keyboard Event Handler is a useful tool for handling keyboard behaviour and dynamic change view constraint.'
 
 # This description is used to generate tags and improve search results.
@@ -35,6 +35,6 @@ Pod::Spec.new do |s|
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  s.frameworks = 'UIKit'
+  # s.frameworks = 'UIKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
