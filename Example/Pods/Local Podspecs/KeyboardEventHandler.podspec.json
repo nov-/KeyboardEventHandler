@@ -1,0 +1,22 @@
+{
+  "name": "KeyboardEventHandler",
+  "version": "0.1.0",
+  "summary": "A short description of KeyboardEventHandler.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/KeyboardEventHandler",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Smirnov Yuriy": "nov-@mail.ru"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/KeyboardEventHandler.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "KeyboardEventHandler/Classes/**/*"
+}

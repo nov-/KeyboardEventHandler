@@ -8,17 +8,49 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+import KeyboardEventHandler
 
+class ViewController: UIViewController {
+    
+    private var keyboardHandler : KeyboardHandler?
+    
+    @IBOutlet weak var button: UIButton!
+    @IBOutlet weak var bottomConstraint: NSLayoutConstraint!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        //configurate KeyboardHandler, convenience init
+        keyboardHandler = KeyboardHandler(
+            constraint: bottomConstraint,
+            forView: button
+        )
+        
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
+    
 }
 
+//MARK: - Action
+
+extension ViewController {
+    
+    @IBAction func buttonAction(sender: AnyObject) {
+        
+        view.endEditing(true)   //hide keyboard
+        
+    }
+    
+}
+
+//MARK: - UITextFieldDelegate
+
+extension ViewController: UITextFieldDelegate {
+    
+    func textFieldShouldReturn(textField: UITextField) -> Bool {
+        
+        textField.resignFirstResponder()
+        
+        return true
+    }
+    
+}

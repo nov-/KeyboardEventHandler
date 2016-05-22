@@ -1,0 +1,6 @@
+framework module KeyboardEventHandler {
+  umbrella header "KeyboardEventHandler-umbrella.h"
+
+  export *
+  module * { export * }
+}

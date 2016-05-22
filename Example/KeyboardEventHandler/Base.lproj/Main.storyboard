@@ -1,25 +1,63 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="1wo-La-HQb">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
-        <scene sceneID="ufC-wZ-h7g">
+        <scene sceneID="cmL-Sp-8M8">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="1wo-La-HQb" customClass="ViewController" customModule="KeyboardHandler_Example" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
-                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                        <viewControllerLayoutGuide type="top" id="Aa3-su-eLH"/>
+                        <viewControllerLayoutGuide type="bottom" id="giE-5C-4vB"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                    <view key="view" contentMode="scaleToFill" id="l5S-V6-a3O">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AWe-Wc-fPY">
+                                <rect key="frame" x="0.0" y="550" width="600" height="50"/>
+                                <color key="backgroundColor" red="0.1176470588" green="0.63137254899999995" blue="0.28627450980000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="f50-vB-0id"/>
+                                </constraints>
+                                <state key="normal" title="Hide keyboard">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonAction:" destination="1wo-La-HQb" eventType="touchUpInside" id="AzR-59-Au2"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Tap on me..." textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="tKL-5i-HDW">
+                                <rect key="frame" x="20" y="480" width="560" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="done"/>
+                                <connections>
+                                    <outlet property="delegate" destination="1wo-La-HQb" id="AF7-cE-eVb"/>
+                                </connections>
+                            </textField>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="AWe-Wc-fPY" firstAttribute="leading" secondItem="l5S-V6-a3O" secondAttribute="leading" id="40y-qb-2iH"/>
+                            <constraint firstItem="AWe-Wc-fPY" firstAttribute="top" secondItem="tKL-5i-HDW" secondAttribute="bottom" constant="40" id="9Aa-sd-abx"/>
+                            <constraint firstItem="giE-5C-4vB" firstAttribute="top" secondItem="AWe-Wc-fPY" secondAttribute="bottom" id="ELd-sI-peb"/>
+                            <constraint firstItem="tKL-5i-HDW" firstAttribute="leading" secondItem="l5S-V6-a3O" secondAttribute="leading" constant="20" id="bbM-Fz-gnW"/>
+                            <constraint firstAttribute="trailing" secondItem="tKL-5i-HDW" secondAttribute="trailing" constant="20" id="kgx-MY-cLF"/>
+                            <constraint firstItem="tKL-5i-HDW" firstAttribute="centerX" secondItem="l5S-V6-a3O" secondAttribute="centerX" id="mO6-PM-Wkg"/>
+                            <constraint firstAttribute="trailing" secondItem="AWe-Wc-fPY" secondAttribute="trailing" id="ydn-pe-UFm"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="bottomConstraint" destination="ELd-sI-peb" id="zZp-9i-WBq"/>
+                        <outlet property="button" destination="AWe-Wc-fPY" id="5c7-dy-Ni7"/>
+                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1rR-Rb-T1i" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="375" y="312"/>
         </scene>
     </scenes>
 </document>

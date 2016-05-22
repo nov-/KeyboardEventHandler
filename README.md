@@ -11,6 +11,8 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
+KeyboardEventHandler no additional requirements are needed, used UIKit only. It is compatible with Cocoapods 1.0 & Swift 2.2 version.
+
 ## Installation
 
 KeyboardEventHandler is available through [CocoaPods](http://cocoapods.org). To install
@@ -19,6 +21,10 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod "KeyboardEventHandler"
 ```
+
+## Usage
+
+See example.
 
 ## Author
 

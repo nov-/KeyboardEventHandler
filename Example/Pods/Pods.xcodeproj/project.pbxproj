@@ -1,0 +1,689 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		081FC12A58AF09088A7C1514E6976F9F /* Pods-KeyboardEventHandler_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F7A5A8133469498B0928C130E6E4469 /* Pods-KeyboardEventHandler_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B5F12D71C740FEEFE4288404BDA62C0 /* KeyboardEventHandler-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F1A48F256B544F554C7DCE02612B421 /* KeyboardEventHandler-dummy.m */; };
+		2D2256274B45ADC07A74E0BBDC02BBDE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		39A296BE1137C5B9DDBA86D7B0289C62 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		4E038D642B3521F6EE8DD1398AE42F73 /* KeyboardEventHandler-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F59547B01414B8D1DED3D0BB88283DD7 /* KeyboardEventHandler-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6CD01496D14AD237DEAC62999C89A49E /* Pods-KeyboardEventHandler_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A295DCCEE24707CC7CED6BBF67561295 /* Pods-KeyboardEventHandler_Example-dummy.m */; };
+		9691F3AFEFDC88F48A03DADF87DD8164 /* Pods-KeyboardEventHandler_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6326BF6F4426E880F41FF9351046F1AB /* Pods-KeyboardEventHandler_Tests-dummy.m */; };
+		98AFFBFE1CF19BBF00AAC543 /* KeyboardHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98AFFBFD1CF19BBF00AAC543 /* KeyboardHandler.swift */; };
+		AA590FC226C7038ED0166364DB146F62 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		B3038E294F7288FC91DFB21718CC2BB5 /* Pods-KeyboardEventHandler_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CFFD35D90E82D30EEE7CF88F8C8F9712 /* Pods-KeyboardEventHandler_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		963DD84103F8B1F88049256D62DA1BC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E028C5B7DC53831B5CF81BEA272B4752;
+			remoteInfo = KeyboardEventHandler;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		092FBE6BB10E7EC188084529B26A8D59 /* Pods-KeyboardEventHandler_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KeyboardEventHandler_Tests-resources.sh"; sourceTree = "<group>"; };
+		0F7A5A8133469498B0928C130E6E4469 /* Pods-KeyboardEventHandler_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KeyboardEventHandler_Example-umbrella.h"; sourceTree = "<group>"; };
+		1196F21567D39D19D090A393BD5F3D2B /* Pods-KeyboardEventHandler_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-KeyboardEventHandler_Tests.modulemap"; sourceTree = "<group>"; };
+		14D775EB607B0B996B56665B50F7396C /* Pods-KeyboardEventHandler_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KeyboardEventHandler_Example-resources.sh"; sourceTree = "<group>"; };
+		1B5984100D62682F18C89AFF9AB3B211 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D6AE09956548E67C39E583DA1DA10D5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A1C3379D2E0357F6FD73335DB07F59C /* KeyboardEventHandler.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KeyboardEventHandler.xcconfig; sourceTree = "<group>"; };
+		4B7A154B4AC25010F03C8625310F6F63 /* Pods-KeyboardEventHandler_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-KeyboardEventHandler_Example.modulemap"; sourceTree = "<group>"; };
+		6123C20E9EEBB14A120F00917F192A64 /* Pods-KeyboardEventHandler_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KeyboardEventHandler_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		6326BF6F4426E880F41FF9351046F1AB /* Pods-KeyboardEventHandler_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KeyboardEventHandler_Tests-dummy.m"; sourceTree = "<group>"; };
+		66A47924DC38C929F72318657DBB6543 /* Pods-KeyboardEventHandler_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KeyboardEventHandler_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		812D7C64982E2E127FBB3B7D1DF0F20E /* Pods-KeyboardEventHandler_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KeyboardEventHandler_Example.release.xcconfig"; sourceTree = "<group>"; };
+		850F4E54FEBFEFFBAE8F642E69E64270 /* Pods-KeyboardEventHandler_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KeyboardEventHandler_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		87F486526BB394930CAF39A2FD95CE39 /* Pods_KeyboardEventHandler_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KeyboardEventHandler_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D6F2BBE3806B7C83C0E6D1E3471F429 /* KeyboardEventHandler-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KeyboardEventHandler-prefix.pch"; sourceTree = "<group>"; };
+		8E5C9344BF1E8F3AFA007C3A3B1F6090 /* Pods-KeyboardEventHandler_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KeyboardEventHandler_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		8F1A48F256B544F554C7DCE02612B421 /* KeyboardEventHandler-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KeyboardEventHandler-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		98AFFBFD1CF19BBF00AAC543 /* KeyboardHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardHandler.swift; sourceTree = "<group>"; };
+		9A7146B95E8674FF15DD3BBAD7711BDC /* Pods-KeyboardEventHandler_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KeyboardEventHandler_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A295DCCEE24707CC7CED6BBF67561295 /* Pods-KeyboardEventHandler_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KeyboardEventHandler_Example-dummy.m"; sourceTree = "<group>"; };
+		B484852724FD9B93B50E4F0544D4D73D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC3EE8E55190D90F7814AE24E5E0C701 /* Pods-KeyboardEventHandler_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KeyboardEventHandler_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CFFD35D90E82D30EEE7CF88F8C8F9712 /* Pods-KeyboardEventHandler_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KeyboardEventHandler_Tests-umbrella.h"; sourceTree = "<group>"; };
+		E1B220D5A284C70EDE885D4B85C5EE0E /* Pods-KeyboardEventHandler_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KeyboardEventHandler_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		E955CD1C21C3AA5F9776508679F707F5 /* KeyboardEventHandler.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = KeyboardEventHandler.modulemap; sourceTree = "<group>"; };
+		EB84597B7E813153DBFA11094F781A34 /* KeyboardEventHandler.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KeyboardEventHandler.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBDFD22DC0919E7FD2063AFE67D74207 /* Pods-KeyboardEventHandler_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KeyboardEventHandler_Example-frameworks.sh"; sourceTree = "<group>"; };
+		F59547B01414B8D1DED3D0BB88283DD7 /* KeyboardEventHandler-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KeyboardEventHandler-umbrella.h"; sourceTree = "<group>"; };
+		F9A2C2DF301C7D1581A94E6FE0E925D1 /* Pods_KeyboardEventHandler_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KeyboardEventHandler_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB8E26A66045A1B9F218F94C22D26C23 /* Pods-KeyboardEventHandler_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KeyboardEventHandler_Tests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1EC9C57E0220D2692D30436132A21EBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D2256274B45ADC07A74E0BBDC02BBDE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		826070B0FC32114DD43C12D15BCDD83E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA590FC226C7038ED0166364DB146F62 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDC86DB374101E7C1A525C0E22A57B8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39A296BE1137C5B9DDBA86D7B0289C62 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		265906E918CF3F4AD3AA11C0A61D5DEA /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8F6C534042E3064E6BC469A9FF772EC6 /* Pods-KeyboardEventHandler_Example */,
+				ECCDFAFA3CE62F7EC8BA46ECDC8061B6 /* Pods-KeyboardEventHandler_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		37DC8773CDD896022D748AAEA3FD4333 /* KeyboardEventHandler */ = {
+			isa = PBXGroup;
+			children = (
+				D006C17A5771B097009ACD036536D1BA /* Classes */,
+			);
+			path = KeyboardEventHandler;
+			sourceTree = "<group>";
+		};
+		381D1881E9BD139659DB7AC15FEBA34B /* KeyboardEventHandler */ = {
+			isa = PBXGroup;
+			children = (
+				37DC8773CDD896022D748AAEA3FD4333 /* KeyboardEventHandler */,
+				9D36100D1CB83AAE888E3B3A2D17A77B /* Support Files */,
+			);
+			name = KeyboardEventHandler;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				957F2CAE309442F72FA0AA32B31E1212 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				9C7DB2CD62A856A953421FBF8857B0A2 /* Products */,
+				265906E918CF3F4AD3AA11C0A61D5DEA /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8F6C534042E3064E6BC469A9FF772EC6 /* Pods-KeyboardEventHandler_Example */ = {
+			isa = PBXGroup;
+			children = (
+				1D6AE09956548E67C39E583DA1DA10D5 /* Info.plist */,
+				4B7A154B4AC25010F03C8625310F6F63 /* Pods-KeyboardEventHandler_Example.modulemap */,
+				9A7146B95E8674FF15DD3BBAD7711BDC /* Pods-KeyboardEventHandler_Example-acknowledgements.markdown */,
+				E1B220D5A284C70EDE885D4B85C5EE0E /* Pods-KeyboardEventHandler_Example-acknowledgements.plist */,
+				A295DCCEE24707CC7CED6BBF67561295 /* Pods-KeyboardEventHandler_Example-dummy.m */,
+				EBDFD22DC0919E7FD2063AFE67D74207 /* Pods-KeyboardEventHandler_Example-frameworks.sh */,
+				14D775EB607B0B996B56665B50F7396C /* Pods-KeyboardEventHandler_Example-resources.sh */,
+				0F7A5A8133469498B0928C130E6E4469 /* Pods-KeyboardEventHandler_Example-umbrella.h */,
+				66A47924DC38C929F72318657DBB6543 /* Pods-KeyboardEventHandler_Example.debug.xcconfig */,
+				812D7C64982E2E127FBB3B7D1DF0F20E /* Pods-KeyboardEventHandler_Example.release.xcconfig */,
+			);
+			name = "Pods-KeyboardEventHandler_Example";
+			path = "Target Support Files/Pods-KeyboardEventHandler_Example";
+			sourceTree = "<group>";
+		};
+		957F2CAE309442F72FA0AA32B31E1212 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				381D1881E9BD139659DB7AC15FEBA34B /* KeyboardEventHandler */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		9C7DB2CD62A856A953421FBF8857B0A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB84597B7E813153DBFA11094F781A34 /* KeyboardEventHandler.framework */,
+				87F486526BB394930CAF39A2FD95CE39 /* Pods_KeyboardEventHandler_Example.framework */,
+				F9A2C2DF301C7D1581A94E6FE0E925D1 /* Pods_KeyboardEventHandler_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9D36100D1CB83AAE888E3B3A2D17A77B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B484852724FD9B93B50E4F0544D4D73D /* Info.plist */,
+				E955CD1C21C3AA5F9776508679F707F5 /* KeyboardEventHandler.modulemap */,
+				4A1C3379D2E0357F6FD73335DB07F59C /* KeyboardEventHandler.xcconfig */,
+				8F1A48F256B544F554C7DCE02612B421 /* KeyboardEventHandler-dummy.m */,
+				8D6F2BBE3806B7C83C0E6D1E3471F429 /* KeyboardEventHandler-prefix.pch */,
+				F59547B01414B8D1DED3D0BB88283DD7 /* KeyboardEventHandler-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/KeyboardEventHandler";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D006C17A5771B097009ACD036536D1BA /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				98AFFBFD1CF19BBF00AAC543 /* KeyboardHandler.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		ECCDFAFA3CE62F7EC8BA46ECDC8061B6 /* Pods-KeyboardEventHandler_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1B5984100D62682F18C89AFF9AB3B211 /* Info.plist */,
+				1196F21567D39D19D090A393BD5F3D2B /* Pods-KeyboardEventHandler_Tests.modulemap */,
+				850F4E54FEBFEFFBAE8F642E69E64270 /* Pods-KeyboardEventHandler_Tests-acknowledgements.markdown */,
+				CC3EE8E55190D90F7814AE24E5E0C701 /* Pods-KeyboardEventHandler_Tests-acknowledgements.plist */,
+				6326BF6F4426E880F41FF9351046F1AB /* Pods-KeyboardEventHandler_Tests-dummy.m */,
+				8E5C9344BF1E8F3AFA007C3A3B1F6090 /* Pods-KeyboardEventHandler_Tests-frameworks.sh */,
+				092FBE6BB10E7EC188084529B26A8D59 /* Pods-KeyboardEventHandler_Tests-resources.sh */,
+				CFFD35D90E82D30EEE7CF88F8C8F9712 /* Pods-KeyboardEventHandler_Tests-umbrella.h */,
+				6123C20E9EEBB14A120F00917F192A64 /* Pods-KeyboardEventHandler_Tests.debug.xcconfig */,
+				FB8E26A66045A1B9F218F94C22D26C23 /* Pods-KeyboardEventHandler_Tests.release.xcconfig */,
+			);
+			name = "Pods-KeyboardEventHandler_Tests";
+			path = "Target Support Files/Pods-KeyboardEventHandler_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A52DD42B39DB7724FE066C6EF18DF387 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E038D642B3521F6EE8DD1398AE42F73 /* KeyboardEventHandler-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8114C3738EFF6E318A4D7FDD2F5675E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				081FC12A58AF09088A7C1514E6976F9F /* Pods-KeyboardEventHandler_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E97843821E7E456EDD27A97C63E1336C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3038E294F7288FC91DFB21718CC2BB5 /* Pods-KeyboardEventHandler_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8D451F3C03CDD293EEF9A4502BD229B6 /* Pods-KeyboardEventHandler_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB3B38C6F695FBC804E210E6D18263ED /* Build configuration list for PBXNativeTarget "Pods-KeyboardEventHandler_Tests" */;
+			buildPhases = (
+				1A655F0580173A430465823F66507C38 /* Sources */,
+				826070B0FC32114DD43C12D15BCDD83E /* Frameworks */,
+				E97843821E7E456EDD27A97C63E1336C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-KeyboardEventHandler_Tests";
+			productName = "Pods-KeyboardEventHandler_Tests";
+			productReference = F9A2C2DF301C7D1581A94E6FE0E925D1 /* Pods_KeyboardEventHandler_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		98B2FD03E6D3B24AA90E030C0F5CAAF5 /* Pods-KeyboardEventHandler_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 396D0DD2A67AE210260A60C2F3477A3B /* Build configuration list for PBXNativeTarget "Pods-KeyboardEventHandler_Example" */;
+			buildPhases = (
+				850FC13B430FF7D2283D03B0BFF6898C /* Sources */,
+				BDC86DB374101E7C1A525C0E22A57B8B /* Frameworks */,
+				E8114C3738EFF6E318A4D7FDD2F5675E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B89B32AA3C04C341FD538BAF975A6AB /* PBXTargetDependency */,
+			);
+			name = "Pods-KeyboardEventHandler_Example";
+			productName = "Pods-KeyboardEventHandler_Example";
+			productReference = 87F486526BB394930CAF39A2FD95CE39 /* Pods_KeyboardEventHandler_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E028C5B7DC53831B5CF81BEA272B4752 /* KeyboardEventHandler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1C5BC2ECB87A77BA05656AB0798939A /* Build configuration list for PBXNativeTarget "KeyboardEventHandler" */;
+			buildPhases = (
+				A49B60F5288A5D52D56C5D6167ECC1A1 /* Sources */,
+				1EC9C57E0220D2692D30436132A21EBA /* Frameworks */,
+				A52DD42B39DB7724FE066C6EF18DF387 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KeyboardEventHandler;
+			productName = KeyboardEventHandler;
+			productReference = EB84597B7E813153DBFA11094F781A34 /* KeyboardEventHandler.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 9C7DB2CD62A856A953421FBF8857B0A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E028C5B7DC53831B5CF81BEA272B4752 /* KeyboardEventHandler */,
+				98B2FD03E6D3B24AA90E030C0F5CAAF5 /* Pods-KeyboardEventHandler_Example */,
+				8D451F3C03CDD293EEF9A4502BD229B6 /* Pods-KeyboardEventHandler_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A655F0580173A430465823F66507C38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9691F3AFEFDC88F48A03DADF87DD8164 /* Pods-KeyboardEventHandler_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		850FC13B430FF7D2283D03B0BFF6898C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CD01496D14AD237DEAC62999C89A49E /* Pods-KeyboardEventHandler_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A49B60F5288A5D52D56C5D6167ECC1A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B5F12D71C740FEEFE4288404BDA62C0 /* KeyboardEventHandler-dummy.m in Sources */,
+				98AFFBFE1CF19BBF00AAC543 /* KeyboardHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8B89B32AA3C04C341FD538BAF975A6AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KeyboardEventHandler;
+			target = E028C5B7DC53831B5CF81BEA272B4752 /* KeyboardEventHandler */;
+			targetProxy = 963DD84103F8B1F88049256D62DA1BC1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2F077940D634C4FC9D9675ED7007D5D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB8E26A66045A1B9F218F94C22D26C23 /* Pods-KeyboardEventHandler_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-KeyboardEventHandler_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KeyboardEventHandler_Tests/Pods-KeyboardEventHandler_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_KeyboardEventHandler_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8E71D8A275CD2DDB915D60C092F6B7C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A1C3379D2E0357F6FD73335DB07F59C /* KeyboardEventHandler.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/KeyboardEventHandler/KeyboardEventHandler-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KeyboardEventHandler/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KeyboardEventHandler/KeyboardEventHandler.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = KeyboardEventHandler;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9DC0AFBEFCFA1D523E3E4ADF022DFA3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6123C20E9EEBB14A120F00917F192A64 /* Pods-KeyboardEventHandler_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-KeyboardEventHandler_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KeyboardEventHandler_Tests/Pods-KeyboardEventHandler_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_KeyboardEventHandler_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CD8CD556C800EC20228E480A55DEB416 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 812D7C64982E2E127FBB3B7D1DF0F20E /* Pods-KeyboardEventHandler_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-KeyboardEventHandler_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KeyboardEventHandler_Example/Pods-KeyboardEventHandler_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_KeyboardEventHandler_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CE0638A38177FA243DBC1CF36A41D6C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A1C3379D2E0357F6FD73335DB07F59C /* KeyboardEventHandler.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/KeyboardEventHandler/KeyboardEventHandler-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KeyboardEventHandler/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KeyboardEventHandler/KeyboardEventHandler.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = KeyboardEventHandler;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E209A5F8703ED42A5DC843F3123C968A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66A47924DC38C929F72318657DBB6543 /* Pods-KeyboardEventHandler_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-KeyboardEventHandler_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KeyboardEventHandler_Example/Pods-KeyboardEventHandler_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_KeyboardEventHandler_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */,
+				0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		396D0DD2A67AE210260A60C2F3477A3B /* Build configuration list for PBXNativeTarget "Pods-KeyboardEventHandler_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E209A5F8703ED42A5DC843F3123C968A /* Debug */,
+				CD8CD556C800EC20228E480A55DEB416 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB3B38C6F695FBC804E210E6D18263ED /* Build configuration list for PBXNativeTarget "Pods-KeyboardEventHandler_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DC0AFBEFCFA1D523E3E4ADF022DFA3B /* Debug */,
+				2F077940D634C4FC9D9675ED7007D5D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1C5BC2ECB87A77BA05656AB0798939A /* Build configuration list for PBXNativeTarget "KeyboardEventHandler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE0638A38177FA243DBC1CF36A41D6C5 /* Debug */,
+				8E71D8A275CD2DDB915D60C092F6B7C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

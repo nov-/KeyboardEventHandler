@@ -1,0 +1,16 @@
+PODS:
+  - KeyboardEventHandler (0.1.0)
+
+DEPENDENCIES:
+  - KeyboardEventHandler (from `../`)
+
+EXTERNAL SOURCES:
+  KeyboardEventHandler:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  KeyboardEventHandler: 8d79ef4998a5b039d77eea1ba288b750236580d8
+
+PODFILE CHECKSUM: 42af87af444e9bb816e6223c3641afa018e01b45
+
+COCOAPODS: 1.0.0
