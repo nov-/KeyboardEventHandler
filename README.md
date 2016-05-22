@@ -24,7 +24,7 @@ pod 'KeyboardEventHandler'
 
 ## Usage
 
-See example.
+Make `import KeyboardEventHandler` to your class and use it! For more details see example.
 
 ## Author
 
