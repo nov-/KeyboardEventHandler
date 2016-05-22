@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'KeyboardEventHandler_Example' do
+  pod 'KeyboardEventHandler', :path => '../'
+
+  target 'KeyboardEventHandler_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
