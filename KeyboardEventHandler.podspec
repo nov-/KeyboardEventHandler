@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'KeyboardEventHandler'
   s.version          = '0.1.0'
-  s.summary          = 'KeyboardEventHandler is a useful tool for handling keyboard behaviour and dynamic change view constraint.'
+  s.summary          = 'Keyboard Event Handler is a useful tool for handling keyboard behaviour and dynamic change view constraint.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = 'To use KeyboardEventHandler just install it via cocoapods and create instance of class with convenience init method. You can init KeyboardEventHandler with special offset - default offset is 0.'
+  s.description      = 'To use Keyboard Event Handler just install it via cocoapods and create instance of class with convenience init method. You can init Keyboard Event Handler with special offset - default offset is 0.'
 
   s.homepage         = 'https://github.com/nov-/KeyboardEventHandler'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
